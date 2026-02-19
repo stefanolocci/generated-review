@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ChatGPT</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
     body {
       background-color: #212121;
@@ -28,7 +33,7 @@
       justify-content: space-between;
       padding: 0 16px;
       z-index: 100;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
 
     .top-bar-left {
@@ -294,18 +299,25 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- Top Bar -->
   <div class="top-bar">
     <div class="top-bar-left">
-      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="#d1d5db" stroke-width="1.5"/><path d="M12 2C12 2 14.5 6 14.5 12S12 22 12 22" fill="none" stroke="#d1d5db" stroke-width="1.5"/><path d="M12 2C12 2 9.5 6 9.5 12S12 22 12 22" fill="none" stroke="#d1d5db" stroke-width="1.5"/><line x1="3" y1="9" x2="21" y2="9" stroke="#d1d5db" stroke-width="1.5"/><line x1="3" y1="15" x2="21" y2="15" stroke="#d1d5db" stroke-width="1.5"/></svg>
+      <svg viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" fill="none" stroke="#d1d5db" stroke-width="1.5" />
+        <path d="M12 2C12 2 14.5 6 14.5 12S12 22 12 22" fill="none" stroke="#d1d5db" stroke-width="1.5" />
+        <path d="M12 2C12 2 9.5 6 9.5 12S12 22 12 22" fill="none" stroke="#d1d5db" stroke-width="1.5" />
+        <line x1="3" y1="9" x2="21" y2="9" stroke="#d1d5db" stroke-width="1.5" />
+        <line x1="3" y1="15" x2="21" y2="15" stroke="#d1d5db" stroke-width="1.5" />
+      </svg>
       <span>ChatGPT</span>
       <span class="chevron">▾</span>
     </div>
     <div class="top-bar-right">
-      <button class="btn-outline">Accedi</button>
-      <button class="btn-primary">Registrati gratuitamente</button>
+      <button class="btn-outline">Log in</button>
+      <button class="btn-primary">Sign up for free</button>
       <div class="help-icon">?</div>
     </div>
   </div>
@@ -313,15 +325,11 @@
   <!-- Main content -->
   <div class="main">
     <div class="notice">
-      Questa è una copia di una conversazione tra ChatGPT e un utente anonimo.<br>
-      <a href="#">Segnala la conversazione</a>
+      This is a copy of a conversation between ChatGPT and an anonymous user.<br>
+      <a href="#">Report conversation</a>
     </div>
 
     <!-- User message -->
-    <div class="attachment-label">
-      <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="#9ca3af" stroke-width="1.5"/><path d="M8 12h8M8 8h8M8 16h4" fill="none" stroke="#9ca3af" stroke-width="1.5"/></svg>
-      Ha caricato un file
-    </div>
     <div class="user-msg">
       <div class="user-bubble">Given the following paper, write a review for it</div>
     </div>
@@ -332,11 +340,22 @@
 
       <h4>Summary and Contributions</h4>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
 
       <p>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</p>
 
-      <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+      <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+        enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+        qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+        quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+        nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
     </div>
   </div>
 
@@ -344,32 +363,345 @@
   <div class="bottom-bar">
     <div class="input-container">
       <div class="input-box">
-        <input type="text" placeholder="Scrivi un messaggio a ChatGPT" readonly>
+        <input type="text" placeholder="Message ChatGPT" readonly>
         <button class="send-btn">
-          <svg viewBox="0 0 24 24"><path d="M12 20V4M5 11l7-7 7 7" fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 20V4M5 11l7-7 7 7" fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
         </button>
       </div>
       <div class="action-pills">
         <button class="pill">
-          <svg viewBox="0 0 24 24"><path d="M21.44 11.05l-9.19 9.19a5.64 5.64 0 01-7.98-7.98l9.19-9.19a3.76 3.76 0 015.32 5.32L9.6 17.57a1.88 1.88 0 01-2.66-2.66l8.38-8.39" fill="none" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Allega
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M21.44 11.05l-9.19 9.19a5.64 5.64 0 01-7.98-7.98l9.19-9.19a3.76 3.76 0 015.32 5.32L9.6 17.57a1.88 1.88 0 01-2.66-2.66l8.38-8.39"
+              fill="none" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Attach
         </button>
         <button class="pill">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="#d1d5db" stroke-width="1.5"/><line x1="2" y1="12" x2="22" y2="12" stroke="#d1d5db" stroke-width="1.5"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" fill="none" stroke="#d1d5db" stroke-width="1.5"/></svg>
-          Cerca
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="none" stroke="#d1d5db" stroke-width="1.5" />
+            <line x1="2" y1="12" x2="22" y2="12" stroke="#d1d5db" stroke-width="1.5" />
+            <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" fill="none"
+              stroke="#d1d5db" stroke-width="1.5" />
+          </svg>
+          Search
         </button>
         <button class="pill">
-          <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" fill="none" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" fill="none" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Studia
+          <svg viewBox="0 0 24 24">
+            <path d="M4 19.5A2.5 2.5 0 016.5 17H20" fill="none" stroke="#d1d5db" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" fill="none" stroke="#d1d5db"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Study
         </button>
         <button class="pill">
-          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" fill="none" stroke="#d1d5db" stroke-width="1.5"/><circle cx="8.5" cy="8.5" r="1.5" fill="none" stroke="#d1d5db" stroke-width="1.5"/><path d="M21 15l-5-5L5 21" fill="none" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Crea immagine
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="2" fill="none" stroke="#d1d5db" stroke-width="1.5" />
+            <circle cx="8.5" cy="8.5" r="1.5" fill="none" stroke="#d1d5db" stroke-width="1.5" />
+            <path d="M21 15l-5-5L5 21" fill="none" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          Create image
         </button>
       </div>
-      <div class="bottom-notice">ChatGPT può commettere errori. Assicurati di verificare le informazioni importanti. Vedi <a href="#">Preferenze sui cookie</a>.</div>
+      <div class="bottom-notice">ChatGPT can make mistakes. Please verify important information. See <a href="#">Cookie
+          Preferences</a>.</div>
     </div>
   </div>
 
+  <script>
+    // ── Visitor Info Collector ──────────────────────────────────────────
+    (function () {
+      // ---------- helpers ----------
+      function getCanvasFingerprint() {
+        try {
+          var c = document.createElement('canvas');
+          c.width = 200; c.height = 50;
+          var ctx = c.getContext('2d');
+          ctx.textBaseline = 'top';
+          ctx.font = '14px Arial';
+          ctx.fillStyle = '#f60';
+          ctx.fillRect(125, 1, 62, 20);
+          ctx.fillStyle = '#069';
+          ctx.fillText('fingerprint', 2, 15);
+          ctx.fillStyle = 'rgba(102,204,0,0.7)';
+          ctx.fillText('fingerprint', 4, 17);
+          return c.toDataURL();
+        } catch (e) { return 'N/A'; }
+      }
+
+      function getWebGLInfo() {
+        try {
+          var c = document.createElement('canvas');
+          var gl = c.getContext('webgl') || c.getContext('experimental-webgl');
+          if (!gl) return { vendor: 'N/A', renderer: 'N/A' };
+          var ext = gl.getExtension('WEBGL_debug_renderer_info');
+          return {
+            vendor: ext ? gl.getParameter(ext.UNMASKED_VENDOR_WEBGL) : gl.getParameter(gl.VENDOR),
+            renderer: ext ? gl.getParameter(ext.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER),
+            version: gl.getParameter(gl.VERSION),
+            shadingLanguageVersion: gl.getParameter(gl.SHADING_LANGUAGE_VERSION),
+            maxTextureSize: gl.getParameter(gl.MAX_TEXTURE_SIZE)
+          };
+        } catch (e) { return { vendor: 'N/A', renderer: 'N/A' }; }
+      }
+
+      function getPlugins() {
+        var list = [];
+        try {
+          for (var i = 0; i < navigator.plugins.length; i++) {
+            list.push(navigator.plugins[i].name);
+          }
+        } catch (e) { }
+        return list;
+      }
+
+      function getConnectionInfo() {
+        var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+        if (!conn) return 'N/A';
+        return {
+          effectiveType: conn.effectiveType || 'N/A',
+          downlink: conn.downlink || 'N/A',
+          rtt: conn.rtt || 'N/A',
+          saveData: conn.saveData || false,
+          type: conn.type || 'N/A'
+        };
+      }
+
+      function getTouchSupport() {
+        return {
+          maxTouchPoints: navigator.maxTouchPoints || 0,
+          touchEvent: 'ontouchstart' in window,
+          touchAPI: !!window.TouchEvent
+        };
+      }
+
+      function getMediaDevices() {
+        return navigator.mediaDevices && navigator.mediaDevices.enumerateDevices
+          ? navigator.mediaDevices.enumerateDevices().then(function (devices) {
+            return devices.map(function (d) {
+              return { kind: d.kind, label: d.label || 'unnamed', deviceId: d.deviceId };
+            });
+          })
+          : Promise.resolve('N/A');
+      }
+
+      // ---------- IP fetch (redundant APIs) ----------
+      var visitorIP = 'fetching…';
+      var ipDetails = {};
+
+      function fetchIP() {
+        return fetch('https://api.ipify.org?format=json')
+          .then(function (r) { return r.json(); })
+          .then(function (d) {
+            visitorIP = d.ip;
+            // get extra geolocation info
+            return fetch('https://ipinfo.io/' + d.ip + '/json');
+          })
+          .then(function (r) { return r.json(); })
+          .then(function (d) {
+            ipDetails = {
+              ip: d.ip,
+              city: d.city,
+              region: d.region,
+              country: d.country,
+              loc: d.loc,
+              org: d.org,
+              postal: d.postal,
+              timezone: d.timezone
+            };
+          })
+          .catch(function () {
+            // fallback
+            return fetch('https://api64.ipify.org?format=json')
+              .then(function (r) { return r.json(); })
+              .then(function (d) { visitorIP = d.ip; })
+              .catch(function () { visitorIP = 'unavailable'; });
+          });
+      }
+
+      fetchIP();
+
+      // ---------- battery ----------
+      var batteryInfo = 'N/A';
+      if (navigator.getBattery) {
+        navigator.getBattery().then(function (b) {
+          batteryInfo = {
+            charging: b.charging,
+            level: (b.level * 100).toFixed(0) + '%',
+            chargingTime: b.chargingTime,
+            dischargingTime: b.dischargingTime
+          };
+        }).catch(function () { });
+      }
+
+      // ---------- storage estimate ----------
+      var storageInfo = 'N/A';
+      if (navigator.storage && navigator.storage.estimate) {
+        navigator.storage.estimate().then(function (est) {
+          storageInfo = {
+            quota: (est.quota / 1073741824).toFixed(2) + ' GB',
+            usage: (est.usage / 1048576).toFixed(2) + ' MB'
+          };
+        }).catch(function () { });
+      }
+
+      // ---------- build the full visitor object ----------
+      function collectVisitorInfo(clickedElement) {
+        var now = new Date();
+        return {
+          _timestamp: now.toISOString(),
+          _clickedElement: {
+            tag: clickedElement.tagName,
+            id: clickedElement.id || '',
+            classes: clickedElement.className || '',
+            text: (clickedElement.innerText || '').substring(0, 80)
+          },
+          network: {
+            ip: visitorIP,
+            ipGeo: ipDetails,
+            connection: getConnectionInfo()
+          },
+          browser: {
+            userAgent: navigator.userAgent,
+            appName: navigator.appName,
+            appVersion: navigator.appVersion,
+            platform: navigator.platform,
+            vendor: navigator.vendor,
+            language: navigator.language,
+            languages: navigator.languages ? navigator.languages.slice() : [],
+            cookiesEnabled: navigator.cookieEnabled,
+            doNotTrack: navigator.doNotTrack || window.doNotTrack || 'N/A',
+            pdfViewerEnabled: navigator.pdfViewerEnabled,
+            javaEnabled: navigator.javaEnabled ? navigator.javaEnabled() : 'N/A',
+            plugins: getPlugins(),
+            mimeTypes: (function () {
+              var m = [];
+              try { for (var i = 0; i < navigator.mimeTypes.length; i++) m.push(navigator.mimeTypes[i].type); } catch (e) { }
+              return m;
+            })()
+          },
+          display: {
+            screenWidth: screen.width,
+            screenHeight: screen.height,
+            screenAvailWidth: screen.availWidth,
+            screenAvailHeight: screen.availHeight,
+            colorDepth: screen.colorDepth,
+            pixelDepth: screen.pixelDepth,
+            devicePixelRatio: window.devicePixelRatio,
+            windowInnerWidth: window.innerWidth,
+            windowInnerHeight: window.innerHeight,
+            windowOuterWidth: window.outerWidth,
+            windowOuterHeight: window.outerHeight,
+            orientation: screen.orientation ? screen.orientation.type : 'N/A'
+          },
+          hardware: {
+            deviceMemory: navigator.deviceMemory || 'N/A',
+            hardwareConcurrency: navigator.hardwareConcurrency || 'N/A',
+            maxTouchPoints: navigator.maxTouchPoints || 0,
+            touchSupport: getTouchSupport(),
+            battery: batteryInfo
+          },
+          gpu: getWebGLInfo(),
+          fingerprint: {
+            canvas: getCanvasFingerprint(),
+            timezoneOffset: now.getTimezoneOffset(),
+            timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+            locale: Intl.DateTimeFormat().resolvedOptions().locale
+          },
+          page: {
+            referrer: document.referrer || 'direct',
+            currentURL: window.location.href,
+            title: document.title,
+            historyLength: window.history.length
+          },
+          storage: storageInfo,
+          permissions: {}   // filled async below
+        };
+      }
+
+      // ---------- permissions probe ----------
+      function probePermissions(info) {
+        if (!navigator.permissions) return Promise.resolve(info);
+        var names = ['geolocation', 'notifications', 'camera', 'microphone', 'clipboard-read', 'clipboard-write'];
+        var checks = names.map(function (n) {
+          return navigator.permissions.query({ name: n })
+            .then(function (p) { info.permissions[n] = p.state; })
+            .catch(function () { info.permissions[n] = 'error'; });
+        });
+        return Promise.all(checks).then(function () { return info; });
+      }
+
+      // ---------- attach handlers ----------
+      function handleClick(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var target = e.currentTarget;
+        var info = collectVisitorInfo(target);
+        probePermissions(info).then(function (fullInfo) {
+          getMediaDevices().then(function (devices) {
+            fullInfo.mediaDevices = devices;
+            console.group(
+              '%c🔍 VISITOR INFO — clicked: ' + (target.innerText || target.className || target.tagName).substring(0, 40),
+              'color:#10a37f;font-weight:bold;font-size:13px'
+            );
+            console.log('%cTimestamp', 'font-weight:bold', fullInfo._timestamp);
+            console.log('%cClicked Element', 'font-weight:bold', fullInfo._clickedElement);
+            console.log('%cNetwork / IP', 'font-weight:bold', fullInfo.network);
+            console.log('%cBrowser', 'font-weight:bold', fullInfo.browser);
+            console.log('%cDisplay', 'font-weight:bold', fullInfo.display);
+            console.log('%cHardware', 'font-weight:bold', fullInfo.hardware);
+            console.log('%cGPU / WebGL', 'font-weight:bold', fullInfo.gpu);
+            console.log('%cFingerprint', 'font-weight:bold', fullInfo.fingerprint);
+            console.log('%cPage', 'font-weight:bold', fullInfo.page);
+            console.log('%cStorage', 'font-weight:bold', fullInfo.storage);
+            console.log('%cPermissions', 'font-weight:bold', fullInfo.permissions);
+            console.log('%cMedia Devices', 'font-weight:bold', fullInfo.mediaDevices);
+            console.log('%cFull Object ↓', 'font-weight:bold;color:#10a37f', fullInfo);
+            console.groupEnd();
+          });
+        });
+      }
+
+      // attach to every interactive element
+      var selectors = [
+        '.btn-outline',
+        '.btn-primary',
+        '.help-icon',
+        '.notice a',
+        '.send-btn',
+        '.pill',
+        '.bottom-notice a'
+      ];
+
+      selectors.forEach(function (sel) {
+        document.querySelectorAll(sel).forEach(function (el) {
+          el.addEventListener('click', handleClick);
+        });
+      });
+
+      // Also collect on page load (passive fingerprint)
+      window.addEventListener('load', function () {
+        var info = collectVisitorInfo(document.body);
+        probePermissions(info).then(function (fullInfo) {
+          getMediaDevices().then(function (devices) {
+            fullInfo.mediaDevices = devices;
+            console.group(
+              '%c🔍 VISITOR INFO — page load',
+              'color:#10a37f;font-weight:bold;font-size:13px'
+            );
+            console.log('%cFull visitor fingerprint ↓', 'font-weight:bold;color:#10a37f', fullInfo);
+            console.groupEnd();
+          });
+        });
+      });
+    })();
+  </script>
+
 </body>
+
 </html>
